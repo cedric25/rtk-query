@@ -62,10 +62,10 @@ function PostsList() {
 By default, RTK Query expects you to `return` two possible objects:
 
 1.  ```ts title="Expected success result format"
-    return { data: { first_name: 'Randy', last_name: 'Banana' };
+    return { data: { first_name: 'Randy', last_name: 'Banana' } };
     ```
 2.  ```ts title="Expected error result format"
-    return { error: { status: 500, data: { message: 'Failed because of reasons' } };
+    return { error: { status: 500, data: { message: 'Failed because of reasons' } } };
     ```
 
 :::note
